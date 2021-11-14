@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5422572821235867341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5422572821235867343}
+  - component: {fileID: 5422572821235867342}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5422572821235867343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422572821235867341}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.055197358, y: 0.6577842, z: 3.1157966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5422572821235867342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422572821235867341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5170c5d7363a3d44a91a239aabdc8e47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawner: {fileID: 2493024627625949381, guid: e7e5f8045cc9c04488431039f4b6e10a, type: 3}
+  Asteroids:
+  - {fileID: 4058044083260120622, guid: 0550049088dce874488fc60c5fae446f, type: 3}
+  - {fileID: 8496588862502007837, guid: 25f385c27be950c428ae0c5530e011d0, type: 3}
+  - {fileID: 2058232070772477547, guid: 6c59866513cd7c64abaefc6050f711bd, type: 3}
+  - {fileID: 5798063963690715515, guid: 1efb2ed2b77a198438a2d709dfa339a9, type: 3}
+  - {fileID: 4599418640960748073, guid: 9d9f41f8284c0d8488b88cedef71a122, type: 3}
+  - {fileID: 3074220526582329699, guid: bc6e9135fbfe714408c9c359a88b38eb, type: 3}
+  spawnerY: 50
+  spawnerZ: 50
+  spawnXOffset: 20
+  baseTotalScore: 200
+  chanceDam: 5
+  chaneHeal: 15
+  chanceSpeed: 3
+  chanceLife: 1
+  modRed: 1
+  modHeal: 50
+  modSpeed: 0.1
+  modLife: 1
